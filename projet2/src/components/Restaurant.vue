@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="restaurant">
     <h1>Le restaurant "{{ restaurant.name }}"</h1>
     <p>Cuisine : {{ restaurant.cuisine }}</p>
     <p>Ville : {{ restaurant.borough }}</p>

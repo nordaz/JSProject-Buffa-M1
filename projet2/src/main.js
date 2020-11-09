@@ -9,7 +9,8 @@ import 'vue-material/dist/theme/default.css'
 import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css'; // Re-uses images from ~leaflet package
+import 'leaflet-defaulticon-compatibility';
 
 
 import ListeRestaurants from './components/ListeRestaurants.vue'
